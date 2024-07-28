@@ -1,0 +1,29 @@
+body {
+    background-image: url();
+    background-size: cover; /* Make the background cover the entire page */
+    background-repeat: no-repeat; /* Ensure the background does not repeat */
+    background-color: #f0f0f0; /* Fallback background color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+  }
+  
+  h1 {
+    text-align: center; /* Center align the heading */
+    margin-top: 20px; /* Add some space at the top */
+  }
+  
+  a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    background-color: #007BFF; /* Link background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  a:hover {
+    background-color: #0056b3; /* Link background color on hover */
+  }
+  
